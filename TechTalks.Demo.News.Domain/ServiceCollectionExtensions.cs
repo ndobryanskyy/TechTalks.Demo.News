@@ -10,6 +10,7 @@ namespace TechTalks.Demo.News.Domain
         {
             services.AddSingleton<INewsFactory, NewsFactory>();
             services.AddSingleton<IArticlesService, InMemoryArticlesService>();
+            services.AddSingleton<IArticlePlagiarismChecker, RandomArticlePlagiarismChecker>();
 
             return services;
         }
