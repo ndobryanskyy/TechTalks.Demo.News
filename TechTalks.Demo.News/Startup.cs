@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using TechTalks.Demo.News.Domain;
+using TechTalks.Demo.News.gRPC;
 
 [assembly: ApiController]
 
@@ -27,6 +28,8 @@ namespace TechTalks.Demo.News
                     Version = "demo"
                 });
             });
+
+            services.AddGrpc();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -47,6 +50,7 @@ namespace TechTalks.Demo.News
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapGrpcService<PressGrpcController>();
             });
         }
     }

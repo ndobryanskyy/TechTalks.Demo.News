@@ -7,11 +7,23 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Google.Protobuf" Version="3.9.1" />
+    <PackageReference Include="Grpc.AspNetCore.Server" Version="2.23.2" />
+    <PackageReference Include="Grpc.Tools" Version="2.23.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TechTalks.Demo.News.Domain\TechTalks.Demo.News.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="..\Protos\press.proto" GrpcServices="Server">
+      <Link>Protos\press.proto</Link>
+    </Protobuf>
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package lohika.tech_talks.news;
+
+import "google/protobuf/timestamp.proto";
+
+service Press {
+	rpc GetArticleById (GetArticleByIdRequest) returns (GetArticleByIdResponse) {};
+}
+
+message GetArticleByIdRequest {
+	int32 article_id = 1;
+}
+
+message GetArticleByIdResponse {
+	Article article = 1;
+}
+
+message Article {
+	int32 id = 1;
+	string title = 2;
+	string content = 3;
+	repeated string tags = 4;
+	google.protobuf.Timestamp published_at = 5;
+}
