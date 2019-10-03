@@ -5,5 +5,7 @@ namespace TechTalks.Demo.News.Domain.Abstractions
     public interface INewsFactory
     {
         ArticleDraft CreateArticleDraft();
+
+        IArticleRecommendationsProvider CreateArticleRecommendationsProvider(OnArticleRecommendationAvailable onArticleRecommendationAvailable);
     }
 }

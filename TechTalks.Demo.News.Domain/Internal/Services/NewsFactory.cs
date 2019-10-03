@@ -8,5 +8,8 @@ namespace TechTalks.Demo.News.Domain.Internal.Services
     {
         public ArticleDraft CreateArticleDraft() 
             => new ArticleDraft(Validators.ArticleDraftValidator);
+
+        public IArticleRecommendationsProvider CreateArticleRecommendationsProvider(OnArticleRecommendationAvailable onArticleRecommendationAvailable)
+            => new DummyArticleRecommendationsProvider(onArticleRecommendationAvailable);
     }
 }
