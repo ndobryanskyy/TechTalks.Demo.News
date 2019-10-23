@@ -11,6 +11,9 @@ namespace TechTalks.Demo.News
         {
             CreateMap<Article, ArticleViewModel>();
             CreateMap<CreateArticleViewModel, ArticleDraft>();
+
+            //CreateMap<Core.Model.Article, Lohika.TechTalks.News.Article>()
+            //    .ForMember(x => x.Tags, options => options.MapFrom(x => x.Tags));
         }
     }
 }
