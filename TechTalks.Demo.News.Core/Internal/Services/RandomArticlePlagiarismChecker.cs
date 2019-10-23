@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using TechTalks.Demo.News.Domain.Abstractions;
-using TechTalks.Demo.News.Domain.Model.Plagiarism;
+using TechTalks.Demo.News.Core.Abstractions;
+using TechTalks.Demo.News.Core.Model.Plagiarism;
 
-namespace TechTalks.Demo.News.Domain.Internal.Services
+namespace TechTalks.Demo.News.Core.Internal.Services
 {
     internal sealed class RandomArticlePlagiarismChecker : IArticlePlagiarismChecker
     {

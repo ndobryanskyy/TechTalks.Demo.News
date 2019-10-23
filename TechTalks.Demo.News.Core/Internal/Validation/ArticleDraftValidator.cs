@@ -1,8 +1,8 @@
 ﻿using System;
 using FluentValidation;
-using TechTalks.Demo.News.Domain.Model.Drafting;
+using TechTalks.Demo.News.Core.Model.Drafting;
 
-namespace TechTalks.Demo.News.Domain.Internal.Validation
+namespace TechTalks.Demo.News.Core.Internal.Validation
 {
     internal sealed class ArticleDraftValidator : AbstractValidator<ArticleDraft>
     {

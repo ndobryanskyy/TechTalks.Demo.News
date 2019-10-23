@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace TechTalks.Demo.News.Domain.Abstractions
+namespace TechTalks.Demo.News.Core.Abstractions
 {
     public delegate Task OnArticleRecommendationAvailable(int suggestedArticleId);
 

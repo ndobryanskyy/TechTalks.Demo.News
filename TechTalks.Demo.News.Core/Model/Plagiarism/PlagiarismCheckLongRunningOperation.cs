@@ -1,4 +1,4 @@
-﻿namespace TechTalks.Demo.News.Domain.Model.Plagiarism
+﻿namespace TechTalks.Demo.News.Core.Model.Plagiarism
 {
     public sealed class PlagiarismCheckOperationProgress
     {

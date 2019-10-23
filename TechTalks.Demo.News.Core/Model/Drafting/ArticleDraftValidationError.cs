@@ -1,4 +1,4 @@
-﻿namespace TechTalks.Demo.News.Domain.Model.Drafting
+﻿namespace TechTalks.Demo.News.Core.Model.Drafting
 {
     public sealed class ArticleDraftValidationError
     {

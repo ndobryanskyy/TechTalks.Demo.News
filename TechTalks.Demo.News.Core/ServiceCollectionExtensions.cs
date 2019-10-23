@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using TechTalks.Demo.News.Domain.Abstractions;
-using TechTalks.Demo.News.Domain.Internal.Services;
+using TechTalks.Demo.News.Core.Abstractions;
+using TechTalks.Demo.News.Core.Internal.Services;
 
-namespace TechTalks.Demo.News.Domain
+namespace TechTalks.Demo.News.Core
 {
     public static class ServiceCollectionExtensions
     {

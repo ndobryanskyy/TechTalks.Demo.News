@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using TechTalks.Demo.News.Domain.Model;
-using TechTalks.Demo.News.Domain.Model.Drafting;
+using TechTalks.Demo.News.Core.Model;
+using TechTalks.Demo.News.Core.Model.Drafting;
 using TechTalks.Demo.News.ViewModels;
 
 namespace TechTalks.Demo.News

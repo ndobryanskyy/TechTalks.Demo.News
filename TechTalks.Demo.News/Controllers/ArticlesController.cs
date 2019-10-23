@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using TechTalks.Demo.News.Domain.Abstractions;
+using TechTalks.Demo.News.Core.Abstractions;
 using TechTalks.Demo.News.ViewModels;
 
 namespace TechTalks.Demo.News.Controllers

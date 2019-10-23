@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TechTalks.Demo.News.Domain.Model
+namespace TechTalks.Demo.News.Core.Model
 {
     public sealed class Article
     {

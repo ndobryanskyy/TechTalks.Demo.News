@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using FluentValidation;
 
-namespace TechTalks.Demo.News.Domain.Model.Drafting
+namespace TechTalks.Demo.News.Core.Model.Drafting
 {
     public sealed class ArticleDraft
     {

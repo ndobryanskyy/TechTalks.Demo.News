@@ -1,9 +1,9 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using TechTalks.Demo.News.Domain.Model;
-using TechTalks.Demo.News.Domain.Model.Drafting;
+using TechTalks.Demo.News.Core.Model;
+using TechTalks.Demo.News.Core.Model.Drafting;
 
-namespace TechTalks.Demo.News.Domain.Abstractions
+namespace TechTalks.Demo.News.Core.Abstractions
 {
     public interface IArticlesService
     {

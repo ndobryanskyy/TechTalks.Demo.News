@@ -1,10 +1,10 @@
-﻿using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using TechTalks.Demo.News.Domain.Abstractions;
+using Microsoft.Extensions.Logging;
+using TechTalks.Demo.News.Core.Abstractions;
 
-namespace TechTalks.Demo.News.Domain.Internal.Services
+namespace TechTalks.Demo.News.Core.Internal.Services
 {
     internal sealed class DummyArticleRecommendationsProvider : IArticleRecommendationsProvider
     {

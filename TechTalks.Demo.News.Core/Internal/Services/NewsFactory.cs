@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Logging;
-using TechTalks.Demo.News.Domain.Abstractions;
-using TechTalks.Demo.News.Domain.Internal.Validation;
-using TechTalks.Demo.News.Domain.Model.Drafting;
+using TechTalks.Demo.News.Core.Abstractions;
+using TechTalks.Demo.News.Core.Internal.Validation;
+using TechTalks.Demo.News.Core.Model.Drafting;
 
-namespace TechTalks.Demo.News.Domain.Internal.Services
+namespace TechTalks.Demo.News.Core.Internal.Services
 {
     internal sealed class NewsFactory : INewsFactory
     {

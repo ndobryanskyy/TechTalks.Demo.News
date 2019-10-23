@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
-using TechTalks.Demo.News.Domain.Model.Plagiarism;
+using TechTalks.Demo.News.Core.Model.Plagiarism;
 
-namespace TechTalks.Demo.News.Domain.Abstractions
+namespace TechTalks.Demo.News.Core.Abstractions
 {
     public interface IArticlePlagiarismChecker
     {
